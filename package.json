@@ -1,0 +1,30 @@
+{
+  "name": "validator",
+  "version": "0.0.1",
+  "description": "validator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monetcap/validator.git"
+  },
+  "author": "kaden@vermilion.tech",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/monetcap/validator/issues"
+  },
+  "homepage": "https://github.com/monetcap/validator#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.15.0",
+    "nodemon": "^1.18.9"
+  }
+}
