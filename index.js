@@ -30,7 +30,7 @@ const getRndInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) 
 
 const getYesNo = () => ((getRndInteger(0, 10) >= 9) ? 'Y' : 'N');
 
-app.post('/validate', (req, res) => {
+app.get('/validate', (req, res) => {
   // check if phone and token parameter are included within the request
   if (!(req.query.phone && req.query.token)) {
     return res.status(400).json({ error: ERROR_MESSAGES.InvalidParameters });
