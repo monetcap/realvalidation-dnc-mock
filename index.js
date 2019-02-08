@@ -56,6 +56,7 @@ app.get('/validate', (req, res) => {
     litigator: getYesNo(),
     iscell: getYesNo(),
     id: getRndInteger(0, 1000000),
+    mock: 'https://github.com/monetcap/realvalidation-dnc-mock',
   };
 
   // send the response with 200 status code
